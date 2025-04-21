@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
               width: 180,
               height: 180,
               child: Image.asset(
-                'assets/images/language-book.png',
+                'assets/images/logos/language-book.png',
               ),
             ),
           ),
@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Image.asset(
-                  'assets/images/numbers.png',
+                  'assets/images/logos/numbers.png',
                   width: 36,
                   height: 36,
                 ),
@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Image.asset(
-                  'assets/images/family.png',
+                  'assets/images/logos/family.png',
                   width: 36,
                   height: 36,
                 ),
@@ -101,7 +101,7 @@ class HomePage extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Image.asset(
-                  'assets/images/phrases.png',
+                  'assets/images/logos/phrases.png',
                   width: 36,
                   height: 36,
                 ),
@@ -131,7 +131,7 @@ class HomePage extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Image.asset(
-                  'assets/images/colors.png',
+                  'assets/images/logos/colors.png',
                   width: 36,
                   height: 36,
                 ),
