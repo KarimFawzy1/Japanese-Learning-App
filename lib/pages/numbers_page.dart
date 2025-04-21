@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+
+class NumbersPage extends StatelessWidget {
+  const NumbersPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Scaffold(
+      body: Center(
+        child: Text('Numbers Page'),
+      ),
+    );
+  }
+}

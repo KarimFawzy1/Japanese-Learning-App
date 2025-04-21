@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:toku_new_look/pages/colors_page.dart';
+import 'package:toku_new_look/pages/family_page.dart';
+import 'package:toku_new_look/pages/numbers_page.dart';
+import 'package:toku_new_look/pages/phrases_page.dart';
+import 'package:toku_new_look/widgets/category.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -28,124 +33,56 @@ class HomePage extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 60),
-          Container(
-            margin: const EdgeInsets.symmetric(horizontal: 12),
-            alignment: Alignment.centerLeft,
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: const Color(0xff9774ef),
-              borderRadius: BorderRadius.circular(14),
-            ),
-            height: 75,
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Image.asset(
-                  'assets/images/logos/numbers.png',
-                  width: 36,
-                  height: 36,
+          Category(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const NumbersPage(),
                 ),
-                const SizedBox(width: 10),
-                const Text(
-                  "Numbers",
-                  style: TextStyle(
-                    fontSize: 20,
-                    // fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
-                ),
-              ],
-            ),
+              );
+            },
+            image: 'assets/images/logos/numbers.png',
+            text: 'Numbers',
           ),
           const SizedBox(height: 14),
-          Container(
-            margin: const EdgeInsets.symmetric(horizontal: 12),
-            alignment: Alignment.centerLeft,
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: const Color(0xff9774ef),
-              borderRadius: BorderRadius.circular(14),
-            ),
-            height: 75,
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Image.asset(
-                  'assets/images/logos/family.png',
-                  width: 36,
-                  height: 36,
+          Category(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const FamilyPage(),
                 ),
-                const SizedBox(width: 10),
-                const Text(
-                  "Family Members",
-                  style: TextStyle(
-                    fontSize: 20,
-                    // fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
-                ),
-              ],
-            ),
+              );
+            },
+            image: 'assets/images/logos/family.png',
+            text: 'Family',
           ),
           const SizedBox(height: 14),
-          Container(
-            margin: const EdgeInsets.symmetric(horizontal: 12),
-            alignment: Alignment.centerLeft,
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: const Color(0xff9774ef),
-              borderRadius: BorderRadius.circular(14),
-            ),
-            height: 75,
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Image.asset(
-                  'assets/images/logos/phrases.png',
-                  width: 36,
-                  height: 36,
+          Category(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const PhrasesPage(),
                 ),
-                const SizedBox(width: 10),
-                const Text(
-                  "Phrases",
-                  style: TextStyle(
-                    fontSize: 20,
-                    // fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
-                ),
-              ],
-            ),
+              );
+            },
+            image: 'assets/images/logos/phrases.png',
+            text: 'Phrases',
           ),
           const SizedBox(height: 14),
-          Container(
-            margin: const EdgeInsets.symmetric(horizontal: 12),
-            alignment: Alignment.centerLeft,
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: const Color(0xff9774ef),
-              borderRadius: BorderRadius.circular(14),
-            ),
-            height: 75,
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Image.asset(
-                  'assets/images/logos/colors.png',
-                  width: 36,
-                  height: 36,
+          Category(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const ColorsPage(),
                 ),
-                const SizedBox(width: 10),
-                const Text(
-                  "Colors",
-                  style: TextStyle(
-                    fontSize: 20,
-                    // fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
-                ),
-              ],
-            ),
+              );
+            },
+            image: 'assets/images/logos/colors.png',
+            text: 'Colors',
           ),
         ],
       ),
