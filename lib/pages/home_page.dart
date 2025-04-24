@@ -64,12 +64,12 @@ class HomePage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const PhrasesPage(),
+                  builder: (context) => const ColorsPage(),
                 ),
               );
             },
-            image: 'assets/images/logos/phrases.png',
-            text: 'Phrases',
+            image: 'assets/images/logos/colors.png',
+            text: 'Colors',
           ),
           const SizedBox(height: 14),
           Category(
@@ -77,12 +77,12 @@ class HomePage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const ColorsPage(),
+                  builder: (context) => const PhrasesPage(),
                 ),
               );
             },
-            image: 'assets/images/logos/colors.png',
-            text: 'Colors',
+            image: 'assets/images/logos/phrases.png',
+            text: 'Phrases',
           ),
         ],
       ),
