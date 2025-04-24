@@ -19,7 +19,7 @@ class Item extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
-            itemModel.image,
+            itemModel.image!,
             width: 36,
             height: 36,
           ),
@@ -36,7 +36,7 @@ class Item extends StatelessWidget {
                 ),
               ),
               Text(
-                itemModel.jpn,
+                itemModel.jpn!,
                 style: const TextStyle(
                   fontSize: 18,
                   color: Colors.black,

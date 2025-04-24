@@ -1,16 +1,13 @@
 import 'package:audioplayers/audioplayers.dart';
 
 class ItemModel {
-  final String image;
+  final String? image;
   final String eng;
-  final String jpn;
+  final String? jpn;
   final String sound;
 
   const ItemModel(
-      {required this.image,
-      required this.eng,
-      required this.jpn,
-      required this.sound});
+      {this.image, required this.eng, this.jpn, required this.sound});
 
   playSound() async {
     final player = AudioPlayer();
