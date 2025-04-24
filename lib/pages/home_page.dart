@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
               );
             },
             image: 'assets/images/logos/family.png',
-            text: 'Family',
+            text: 'Family Members',
           ),
           const SizedBox(height: 14),
           Category(
