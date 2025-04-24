@@ -1,4 +1,4 @@
-# Toku - Flutter Language Learning App
+# Toku - Flutter Japanese Learning App
 
 ## Overview
 
@@ -42,7 +42,6 @@ Toku is a feature-rich Flutter application designed to provide an engaging and i
 
 Key dependencies specified in [pubspec.yaml](d:\vscode\Flutter_Course\toku_new_look\pubspec.yaml) include:
 - Flutter SDK.
-- [`cupertino_icons`](https://pub.dev/packages/cupertino_icons) for iOS style icons.
 - [`audioplayers`](https://pub.dev/packages/audioplayers) for audio functionality.
 
 ## Getting Started
