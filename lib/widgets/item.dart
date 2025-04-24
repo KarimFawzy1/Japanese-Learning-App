@@ -36,7 +36,7 @@ class Item extends StatelessWidget {
                 ),
               ),
               Text(
-                itemModel.jap,
+                itemModel.jpn,
                 style: const TextStyle(
                   fontSize: 18,
                   color: Colors.black,

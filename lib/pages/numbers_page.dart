@@ -9,53 +9,53 @@ class NumbersPage extends StatelessWidget {
     ItemModel(
         image: 'assets/images/numbers/one.png',
         eng: "One",
-        jap: "Ichi",
-        sound: "one.mp3"),
+        jpn: "Ichi",
+        sound: "numbers/one.mp3"),
     ItemModel(
         image: 'assets/images/numbers/two.png',
         eng: "Two",
-        jap: "Ni",
-        sound: "two.mp3"),
+        jpn: "Ni",
+        sound: "numbers/two.mp3"),
     ItemModel(
         image: 'assets/images/numbers/three.png',
         eng: "Three",
-        jap: "San",
-        sound: "three.mp3"),
+        jpn: "San",
+        sound: "numbers/three.mp3"),
     ItemModel(
         image: 'assets/images/numbers/four.png',
         eng: "Four",
-        jap: "Shi",
-        sound: "four.mp3"),
+        jpn: "Shi",
+        sound: "numbers/four.mp3"),
     ItemModel(
         image: 'assets/images/numbers/five.png',
         eng: "Five",
-        jap: "Go",
-        sound: "five.mp3"),
+        jpn: "Go",
+        sound: "numbers/five.mp3"),
     ItemModel(
         image: 'assets/images/numbers/six.png',
         eng: "Six",
-        jap: "Roku",
-        sound: "six.mp3"),
+        jpn: "Roku",
+        sound: "numbers/six.mp3"),
     ItemModel(
         image: 'assets/images/numbers/seven.png',
         eng: "Seven",
-        jap: "Sebun",
-        sound: "seven.mp3"),
+        jpn: "Sebun",
+        sound: "numbers/seven.mp3"),
     ItemModel(
         image: 'assets/images/numbers/eight.png',
         eng: "Eight",
-        jap: "Hachi",
-        sound: "eight.mp3"),
+        jpn: "Hachi",
+        sound: "numbers/eight.mp3"),
     ItemModel(
         image: 'assets/images/numbers/nine.png',
         eng: "Nine",
-        jap: "Kyu",
-        sound: "nine.mp3"),
+        jpn: "Kyu",
+        sound: "numbers/nine.mp3"),
     ItemModel(
         image: 'assets/images/numbers/ten.png',
         eng: "Ten",
-        jap: "Ju",
-        sound: "ten.mp3"),
+        jpn: "Ju",
+        sound: "numbers/ten.mp3"),
   ];
 
   @override

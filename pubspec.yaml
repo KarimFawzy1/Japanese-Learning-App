@@ -63,11 +63,11 @@ flutter:
   assets:
     - assets/images/logos/
     - assets/images/colors/
-    - assets/images/family_members/
+    - assets/images/family/
     - assets/images/numbers/
     - assets/sounds/numbers/
     - assets/sounds/phrases/
-    - assets/sounds/family_members/
+    - assets/sounds/family/
     - assets/sounds/colors/
 
   # An image asset can refer to one or more resolution-specific "variants", see
