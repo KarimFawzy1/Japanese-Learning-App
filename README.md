@@ -1,6 +1,15 @@
-# toku_new_look
+# Toku - Flutter Language Learning App
 
-A new Flutter project.
+## Overview
+
+Toku is a feature-rich Flutter application designed to provide an engaging and intuitive user experience across multiple platforms. With a clean and modular architecture, the project serves as a robust foundation for building cross-platform mobile applications with scalable and maintainable code.
+
+## Features
+
+- **Cross-Platform Compatibility:** Seamlessly runs on Android, iOS, and other supported platforms.
+- **Intuitive Navigation:** Structured layout with dedicated pages for Home, Colors, Family, Numbers, and Phrases.
+- **Rich Media Integration:** Utilizes images and audio assets to enhance the user interface.
+- **Modular Design:** Organized codebase separating models, pages, and reusable widgets, encouraging code reuse and easy maintenance.
 
 ## Project Structure
 
