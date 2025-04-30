@@ -55,4 +55,12 @@ For more information on assets and configuration, refer to:
 - [lib folder](d:\vscode\Flutter_Course\toku_new_look\lib)
 - [assets folder](d:\vscode\Flutter_Course\toku_new_look\assets)
 
+## Screenshots
+
+![WhatsApp Image 2025-04-30 at 19 06 51_876e3279](https://github.com/user-attachments/assets/b2413ed1-fe84-442b-86ef-d9177e81f905)
+![WhatsApp Image 2025-04-30 at 19 06 51_c08979f6](https://github.com/user-attachments/assets/d1a8661c-64be-4585-8ce2-b84290c98d4c)
+![WhatsApp Image 2025-04-30 at 19 06 52_18fcb3ea](https://github.com/user-attachments/assets/1e4625c7-6edf-4894-bd2e-58d3e55bfc73)
+![WhatsApp Image 2025-04-30 at 19 06 52_8dcb83ea](https://github.com/user-attachments/assets/e46fb2ba-dc03-46d8-ac54-ebba35236088)
+![WhatsApp Image 2025-04-30 at 19 06 52_d49679ba](https://github.com/user-attachments/assets/6d61598e-bae2-4ce4-9817-cc4a2d6f57b0)
+
 Happy Coding!
